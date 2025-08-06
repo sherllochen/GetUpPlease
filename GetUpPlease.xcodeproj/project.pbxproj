@@ -1,0 +1,954 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEC0DA9E2E4371BD00556239 /* GetUpPlease Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AEC0DA9D2E4371BD00556239 /* GetUpPlease Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEC0DA882E4371BD00556239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEC0DA6F2E4371BB00556239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC0DA762E4371BB00556239;
+			remoteInfo = GetUpPlease;
+		};
+		AEC0DA922E4371BD00556239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEC0DA6F2E4371BB00556239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC0DA762E4371BB00556239;
+			remoteInfo = GetUpPlease;
+		};
+		AEC0DA9F2E4371BD00556239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEC0DA6F2E4371BB00556239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC0DA9C2E4371BD00556239;
+			remoteInfo = "GetUpPlease Watch App";
+		};
+		AEC0DAB02E4371BE00556239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEC0DA6F2E4371BB00556239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC0DA9C2E4371BD00556239;
+			remoteInfo = "GetUpPlease Watch App";
+		};
+		AEC0DABA2E4371BE00556239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEC0DA6F2E4371BB00556239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC0DA9C2E4371BD00556239;
+			remoteInfo = "GetUpPlease Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEC0DAC62E4371BE00556239 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AEC0DA9E2E4371BD00556239 /* GetUpPlease Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AEC0DA772E4371BB00556239 /* GetUpPlease.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetUpPlease.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC0DA872E4371BD00556239 /* GetUpPleaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetUpPleaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC0DA912E4371BD00556239 /* GetUpPleaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetUpPleaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC0DA9D2E4371BD00556239 /* GetUpPlease Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GetUpPlease Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC0DAAF2E4371BE00556239 /* GetUpPlease Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GetUpPlease Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC0DAB92E4371BE00556239 /* GetUpPlease Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GetUpPlease Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AEC0DA792E4371BB00556239 /* GetUpPlease */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GetUpPlease;
+			sourceTree = "<group>";
+		};
+		AEC0DA8A2E4371BD00556239 /* GetUpPleaseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GetUpPleaseTests;
+			sourceTree = "<group>";
+		};
+		AEC0DA942E4371BD00556239 /* GetUpPleaseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GetUpPleaseUITests;
+			sourceTree = "<group>";
+		};
+		AEC0DAA12E4371BD00556239 /* GetUpPlease Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GetUpPlease Watch App";
+			sourceTree = "<group>";
+		};
+		AEC0DAB22E4371BE00556239 /* GetUpPlease Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GetUpPlease Watch AppTests";
+			sourceTree = "<group>";
+		};
+		AEC0DABC2E4371BE00556239 /* GetUpPlease Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GetUpPlease Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEC0DA742E4371BB00556239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC0DA842E4371BD00556239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC0DA8E2E4371BD00556239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC0DA9A2E4371BD00556239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC0DAAC2E4371BE00556239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC0DAB62E4371BE00556239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEC0DA6E2E4371BB00556239 = {
+			isa = PBXGroup;
+			children = (
+				AEC0DA792E4371BB00556239 /* GetUpPlease */,
+				AEC0DA8A2E4371BD00556239 /* GetUpPleaseTests */,
+				AEC0DA942E4371BD00556239 /* GetUpPleaseUITests */,
+				AEC0DAA12E4371BD00556239 /* GetUpPlease Watch App */,
+				AEC0DAB22E4371BE00556239 /* GetUpPlease Watch AppTests */,
+				AEC0DABC2E4371BE00556239 /* GetUpPlease Watch AppUITests */,
+				AEC0DA782E4371BB00556239 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEC0DA782E4371BB00556239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC0DA772E4371BB00556239 /* GetUpPlease.app */,
+				AEC0DA872E4371BD00556239 /* GetUpPleaseTests.xctest */,
+				AEC0DA912E4371BD00556239 /* GetUpPleaseUITests.xctest */,
+				AEC0DA9D2E4371BD00556239 /* GetUpPlease Watch App.app */,
+				AEC0DAAF2E4371BE00556239 /* GetUpPlease Watch AppTests.xctest */,
+				AEC0DAB92E4371BE00556239 /* GetUpPlease Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEC0DA762E4371BB00556239 /* GetUpPlease */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC0DAC72E4371BE00556239 /* Build configuration list for PBXNativeTarget "GetUpPlease" */;
+			buildPhases = (
+				AEC0DA732E4371BB00556239 /* Sources */,
+				AEC0DA742E4371BB00556239 /* Frameworks */,
+				AEC0DA752E4371BB00556239 /* Resources */,
+				AEC0DAC62E4371BE00556239 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC0DAA02E4371BD00556239 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AEC0DA792E4371BB00556239 /* GetUpPlease */,
+			);
+			name = GetUpPlease;
+			packageProductDependencies = (
+			);
+			productName = GetUpPlease;
+			productReference = AEC0DA772E4371BB00556239 /* GetUpPlease.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEC0DA862E4371BD00556239 /* GetUpPleaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC0DACA2E4371BE00556239 /* Build configuration list for PBXNativeTarget "GetUpPleaseTests" */;
+			buildPhases = (
+				AEC0DA832E4371BD00556239 /* Sources */,
+				AEC0DA842E4371BD00556239 /* Frameworks */,
+				AEC0DA852E4371BD00556239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC0DA892E4371BD00556239 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AEC0DA8A2E4371BD00556239 /* GetUpPleaseTests */,
+			);
+			name = GetUpPleaseTests;
+			packageProductDependencies = (
+			);
+			productName = GetUpPleaseTests;
+			productReference = AEC0DA872E4371BD00556239 /* GetUpPleaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEC0DA902E4371BD00556239 /* GetUpPleaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC0DACD2E4371BE00556239 /* Build configuration list for PBXNativeTarget "GetUpPleaseUITests" */;
+			buildPhases = (
+				AEC0DA8D2E4371BD00556239 /* Sources */,
+				AEC0DA8E2E4371BD00556239 /* Frameworks */,
+				AEC0DA8F2E4371BD00556239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC0DA932E4371BD00556239 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AEC0DA942E4371BD00556239 /* GetUpPleaseUITests */,
+			);
+			name = GetUpPleaseUITests;
+			packageProductDependencies = (
+			);
+			productName = GetUpPleaseUITests;
+			productReference = AEC0DA912E4371BD00556239 /* GetUpPleaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AEC0DA9C2E4371BD00556239 /* GetUpPlease Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC0DAC32E4371BE00556239 /* Build configuration list for PBXNativeTarget "GetUpPlease Watch App" */;
+			buildPhases = (
+				AEC0DA992E4371BD00556239 /* Sources */,
+				AEC0DA9A2E4371BD00556239 /* Frameworks */,
+				AEC0DA9B2E4371BD00556239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AEC0DAA12E4371BD00556239 /* GetUpPlease Watch App */,
+			);
+			name = "GetUpPlease Watch App";
+			packageProductDependencies = (
+			);
+			productName = "GetUpPlease Watch App";
+			productReference = AEC0DA9D2E4371BD00556239 /* GetUpPlease Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEC0DAAE2E4371BE00556239 /* GetUpPlease Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC0DAD02E4371BE00556239 /* Build configuration list for PBXNativeTarget "GetUpPlease Watch AppTests" */;
+			buildPhases = (
+				AEC0DAAB2E4371BE00556239 /* Sources */,
+				AEC0DAAC2E4371BE00556239 /* Frameworks */,
+				AEC0DAAD2E4371BE00556239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC0DAB12E4371BE00556239 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AEC0DAB22E4371BE00556239 /* GetUpPlease Watch AppTests */,
+			);
+			name = "GetUpPlease Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "GetUpPlease Watch AppTests";
+			productReference = AEC0DAAF2E4371BE00556239 /* GetUpPlease Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEC0DAB82E4371BE00556239 /* GetUpPlease Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC0DAD32E4371BE00556239 /* Build configuration list for PBXNativeTarget "GetUpPlease Watch AppUITests" */;
+			buildPhases = (
+				AEC0DAB52E4371BE00556239 /* Sources */,
+				AEC0DAB62E4371BE00556239 /* Frameworks */,
+				AEC0DAB72E4371BE00556239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC0DABB2E4371BE00556239 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AEC0DABC2E4371BE00556239 /* GetUpPlease Watch AppUITests */,
+			);
+			name = "GetUpPlease Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "GetUpPlease Watch AppUITests";
+			productReference = AEC0DAB92E4371BE00556239 /* GetUpPlease Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEC0DA6F2E4371BB00556239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AEC0DA762E4371BB00556239 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AEC0DA862E4371BD00556239 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AEC0DA762E4371BB00556239;
+					};
+					AEC0DA902E4371BD00556239 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AEC0DA762E4371BB00556239;
+					};
+					AEC0DA9C2E4371BD00556239 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AEC0DAAE2E4371BE00556239 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AEC0DA9C2E4371BD00556239;
+					};
+					AEC0DAB82E4371BE00556239 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AEC0DA9C2E4371BD00556239;
+					};
+				};
+			};
+			buildConfigurationList = AEC0DA722E4371BB00556239 /* Build configuration list for PBXProject "GetUpPlease" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEC0DA6E2E4371BB00556239;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AEC0DA782E4371BB00556239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEC0DA762E4371BB00556239 /* GetUpPlease */,
+				AEC0DA862E4371BD00556239 /* GetUpPleaseTests */,
+				AEC0DA902E4371BD00556239 /* GetUpPleaseUITests */,
+				AEC0DA9C2E4371BD00556239 /* GetUpPlease Watch App */,
+				AEC0DAAE2E4371BE00556239 /* GetUpPlease Watch AppTests */,
+				AEC0DAB82E4371BE00556239 /* GetUpPlease Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEC0DA752E4371BB00556239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC0DA852E4371BD00556239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC0DA8F2E4371BD00556239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC0DA9B2E4371BD00556239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC0DAAD2E4371BE00556239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC0DAB72E4371BE00556239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEC0DA732E4371BB00556239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC0DA832E4371BD00556239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC0DA8D2E4371BD00556239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC0DA992E4371BD00556239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC0DAAB2E4371BE00556239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC0DAB52E4371BE00556239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEC0DA892E4371BD00556239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEC0DA762E4371BB00556239 /* GetUpPlease */;
+			targetProxy = AEC0DA882E4371BD00556239 /* PBXContainerItemProxy */;
+		};
+		AEC0DA932E4371BD00556239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEC0DA762E4371BB00556239 /* GetUpPlease */;
+			targetProxy = AEC0DA922E4371BD00556239 /* PBXContainerItemProxy */;
+		};
+		AEC0DAA02E4371BD00556239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEC0DA9C2E4371BD00556239 /* GetUpPlease Watch App */;
+			targetProxy = AEC0DA9F2E4371BD00556239 /* PBXContainerItemProxy */;
+		};
+		AEC0DAB12E4371BE00556239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEC0DA9C2E4371BD00556239 /* GetUpPlease Watch App */;
+			targetProxy = AEC0DAB02E4371BE00556239 /* PBXContainerItemProxy */;
+		};
+		AEC0DABB2E4371BE00556239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEC0DA9C2E4371BD00556239 /* GetUpPlease Watch App */;
+			targetProxy = AEC0DABA2E4371BE00556239 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AEC0DAC12E4371BE00556239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEC0DAC22E4371BE00556239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AEC0DAC42E4371BE00556239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GetUpPlease Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GetUpPlease;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jj.GetUpPlease;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jj.GetUpPlease.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		AEC0DAC52E4371BE00556239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GetUpPlease Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GetUpPlease;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jj.GetUpPlease;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jj.GetUpPlease.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		AEC0DAC82E4371BE00556239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GetUpPlease/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GetUpPlease;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jj.GetUpPlease;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEC0DAC92E4371BE00556239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GetUpPlease/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GetUpPlease;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jj.GetUpPlease;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEC0DACB2E4371BE00556239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jj.GetUpPleaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetUpPlease.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GetUpPlease";
+			};
+			name = Debug;
+		};
+		AEC0DACC2E4371BE00556239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jj.GetUpPleaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetUpPlease.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GetUpPlease";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEC0DACE2E4371BE00556239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jj.GetUpPleaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GetUpPlease;
+			};
+			name = Debug;
+		};
+		AEC0DACF2E4371BE00556239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jj.GetUpPleaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GetUpPlease;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEC0DAD12E4371BE00556239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jj.GetUpPlease-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetUpPlease Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GetUpPlease Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		AEC0DAD22E4371BE00556239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jj.GetUpPlease-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetUpPlease Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GetUpPlease Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		AEC0DAD42E4371BE00556239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jj.GetUpPlease-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "GetUpPlease Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		AEC0DAD52E4371BE00556239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jj.GetUpPlease-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "GetUpPlease Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEC0DA722E4371BB00556239 /* Build configuration list for PBXProject "GetUpPlease" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC0DAC12E4371BE00556239 /* Debug */,
+				AEC0DAC22E4371BE00556239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC0DAC32E4371BE00556239 /* Build configuration list for PBXNativeTarget "GetUpPlease Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC0DAC42E4371BE00556239 /* Debug */,
+				AEC0DAC52E4371BE00556239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC0DAC72E4371BE00556239 /* Build configuration list for PBXNativeTarget "GetUpPlease" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC0DAC82E4371BE00556239 /* Debug */,
+				AEC0DAC92E4371BE00556239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC0DACA2E4371BE00556239 /* Build configuration list for PBXNativeTarget "GetUpPleaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC0DACB2E4371BE00556239 /* Debug */,
+				AEC0DACC2E4371BE00556239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC0DACD2E4371BE00556239 /* Build configuration list for PBXNativeTarget "GetUpPleaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC0DACE2E4371BE00556239 /* Debug */,
+				AEC0DACF2E4371BE00556239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC0DAD02E4371BE00556239 /* Build configuration list for PBXNativeTarget "GetUpPlease Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC0DAD12E4371BE00556239 /* Debug */,
+				AEC0DAD22E4371BE00556239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC0DAD32E4371BE00556239 /* Build configuration list for PBXNativeTarget "GetUpPlease Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC0DAD42E4371BE00556239 /* Debug */,
+				AEC0DAD52E4371BE00556239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEC0DA6F2E4371BB00556239 /* Project object */;
+}
