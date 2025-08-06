@@ -34,12 +34,12 @@ This plan breaks down development into small, demoable iterations. Each iteratio
 **User Story**: "As a user, I want to create multiple alarms, turn them on/off, and delete them"
 
 **Deliverables**:
-- [x] Alarm list view showing all alarms
-- [x] Add new alarm functionality
-- [x] Delete alarm (swipe or long press)
-- [x] Enable/disable toggle for each alarm
-- [x] Edit existing alarm time
-- [x] Basic alarm storage (UserDefaults or Core Data)
+- [ ] Alarm list view showing all alarms
+- [ ] Add new alarm functionality
+- [ ] Delete alarm (swipe or long press)
+- [ ] Enable/disable toggle for each alarm
+- [ ] Edit existing alarm time
+- [ ] Basic alarm storage (UserDefaults or Core Data)
 
 **Demo Scenario**: Create 3 alarms, toggle one off, edit another, delete third, show list updates
 
@@ -57,11 +57,11 @@ This plan breaks down development into small, demoable iterations. Each iteratio
 **User Story**: "As a user, I want to set alarms that repeat daily or on specific days"
 
 **Deliverables**:
-- [x] Recurring options in alarm creation (One-time, Daily, Custom days)
-- [x] Day picker for custom schedules (Mon, Tue, Wed, etc.)
-- [x] Updated alarm list showing recurrence info
-- [x] Smart scheduling logic for recurring notifications
-- [x] "Next alarm" display showing when next alarm will fire
+- [ ] Recurring options in alarm creation (One-time, Daily, Custom days)
+- [ ] Day picker for custom schedules (Mon, Tue, Wed, etc.)
+- [ ] Updated alarm list showing recurrence info
+- [ ] Smart scheduling logic for recurring notifications
+- [ ] "Next alarm" display showing when next alarm will fire
 
 **Demo Scenario**: Create daily 7am alarm, create weekend-only 9am alarm, show next scheduled times
 
@@ -79,13 +79,13 @@ This plan breaks down development into small, demoable iterations. Each iteratio
 **User Story**: "As a user, when alarm fires, I need to solve 5 math problems to dismiss it"
 
 **Deliverables**:
-- [x] Math challenge screen (fullscreen when alarm fires)
-- [x] Random two-digit addition/subtraction problems
-- [x] Number pad input interface (like passcode entry)
-- [x] Progress indicator (1/5, 2/5, etc.)
-- [x] "Wrong, try again" feedback
-- [x] Success screen after 5 correct answers
-- [x] Challenge bypasses simple tap-to-dismiss
+- [ ] Math challenge screen (fullscreen when alarm fires)
+- [ ] Random two-digit addition/subtraction problems
+- [ ] Number pad input interface (like passcode entry)
+- [ ] Progress indicator (1/5, 2/5, etc.)
+- [ ] "Wrong, try again" feedback
+- [ ] Success screen after 5 correct answers
+- [ ] Challenge bypasses simple tap-to-dismiss
 
 **Demo Scenario**: Alarm fires, shows "23 + 47 = ?", solve 5 problems, alarm dismisses
 
@@ -103,11 +103,11 @@ This plan breaks down development into small, demoable iterations. Each iteratio
 **User Story**: "As a user, if I fail 10 math problems, the alarm should dismiss automatically"
 
 **Deliverables**:
-- [x] Failure counter tracking wrong answers
-- [x] Emergency dismiss after 10 consecutive failures
-- [x] Failure indicator in UI ("Attempts: 3/10")
-- [x] Reset failure count on each correct answer
-- [x] Emergency dismiss confirmation/feedback
+- [ ] Failure counter tracking wrong answers
+- [ ] Emergency dismiss after 10 consecutive failures
+- [ ] Failure indicator in UI ("Attempts: 3/10")
+- [ ] Reset failure count on each correct answer
+- [ ] Emergency dismiss confirmation/feedback
 
 **Demo Scenario**: Intentionally answer wrong 10 times, watch alarm auto-dismiss with message
 
@@ -124,11 +124,11 @@ This plan breaks down development into small, demoable iterations. Each iteratio
 **User Story**: "As a user, I want the alarm to start gently and get stronger if I don't respond"
 
 **Deliverables**:
-- [x] Tiered vibration system (Gentle → Medium → Strong)
-- [x] Time-based escalation (1 min, 2 min intervals)
-- [x] Different haptic patterns for each level
-- [x] Vibration continues during math challenges
-- [x] Stop vibration only on successful completion
+- [ ] Tiered vibration system (Gentle → Medium → Strong)
+- [ ] Time-based escalation (1 min, 2 min intervals)
+- [ ] Different haptic patterns for each level
+- [ ] Vibration continues during math challenges
+- [ ] Stop vibration only on successful completion
 
 **Demo Scenario**: Let alarm run for 3+ minutes, observe escalation from gentle to strong vibration
 
@@ -146,11 +146,11 @@ This plan breaks down development into small, demoable iterations. Each iteratio
 **User Story**: "As a user, I want the alarm to keep going even if I accidentally cover the watch or make gestures"
 
 **Deliverables**:
-- [x] Disable standard dismiss gestures during alarm
-- [x] Force user to open app to access challenge
-- [x] Ignore crown rotation and button presses
-- [x] Only allow dismissal through completed challenge
-- [x] Visual indicators showing "alarm active" state
+- [ ] Disable standard dismiss gestures during alarm
+- [ ] Force user to open app to access challenge
+- [ ] Ignore crown rotation and button presses
+- [ ] Only allow dismissal through completed challenge
+- [ ] Visual indicators showing "alarm active" state
 
 **Demo Scenario**: Cover watch face, press buttons, rotate crown - alarm continues until math challenges completed
 
@@ -168,12 +168,12 @@ This plan breaks down development into small, demoable iterations. Each iteratio
 **User Story**: "As a user, I want a polished experience with clear feedback and intuitive interface"
 
 **Deliverables**:
-- [x] Improved visual design for all screens
-- [x] Better icons and color coding
-- [x] Loading states and transitions
-- [x] Confirmation dialogs for important actions
-- [x] Help/info screens explaining challenge system
-- [x] Sound options (for future non-silent use)
+- [ ] Improved visual design for all screens
+- [ ] Better icons and color coding
+- [ ] Loading states and transitions
+- [ ] Confirmation dialogs for important actions
+- [ ] Help/info screens explaining challenge system
+- [ ] Sound options (for future non-silent use)
 
 **Demo Scenario**: Complete user journey feels smooth and professional
 

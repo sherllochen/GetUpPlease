@@ -5,14 +5,14 @@ This guide will take you through a comprehensive journey of learning Apple Watch
 ## Learning Path Overview
 
 ### Phase 1: Fundamentals & Setup
-- [ ] **Step 1**: Understanding Apple Watch Architecture & Capabilities
-- [ ] **Step 2**: Xcode Setup and Project Structure for watchOS
-- [ ] **Step 3**: SwiftUI Basics for watchOS
-- [ ] **Step 4**: Understanding Watch App Lifecycle
+- [x] **Step 1**: Understanding Apple Watch Architecture & Capabilities
+- [x] **Step 2**: Xcode Setup and Project Structure for watchOS  
+- [x] **Step 3**: SwiftUI Basics for watchOS
+- [x] **Step 4**: Understanding Watch App Lifecycle
 
 ### Phase 2: Core Development Skills
-- [ ] **Step 5**: Building Your First Watch Interface
-- [ ] **Step 6**: Navigation and Multiple Views
+- [x] **Step 5**: Building Your First Watch Interface
+- [x] **Step 6**: Navigation and Multiple Views
 - [ ] **Step 7**: User Input Methods (Digital Crown, Buttons, Gestures)
 - [ ] **Step 8**: Working with Lists and Data Display
 
@@ -26,11 +26,11 @@ This guide will take you through a comprehensive journey of learning Apple Watch
 - [ ] **Step 13**: Watch Connectivity (Communication with iPhone)
 - [ ] **Step 14**: Core Data and Local Storage
 - [ ] **Step 15**: Network Requests and APIs
-- [ ] **Step 16**: Push Notifications for Watch
+- [x] **Step 16**: Push Notifications for Watch
 
 ### Phase 5: Advanced Features
 - [ ] **Step 17**: Workout Apps and Fitness Integration
-- [ ] **Step 18**: Audio and Haptic Feedback
+- [x] **Step 18**: Audio and Haptic Feedback
 - [ ] **Step 19**: Sensors and Motion Detection
 - [ ] **Step 20**: Performance Optimization for watchOS
 
