@@ -145,18 +145,22 @@ This plan breaks down development into small, demoable iterations. Each iteratio
 
 **User Story**: "As a user, I want the alarm to keep going even if I accidentally cover the watch or make gestures"
 
+**Technical Challenge**: Override Apple Watch's built-in "Cover to Mute" behavior and other system dismissal mechanisms
+
 **Deliverables**:
+- [ ] Bypass "Cover to Mute" system behavior during alarm
 - [ ] Disable standard dismiss gestures during alarm
 - [ ] Force user to open app to access challenge
 - [ ] Ignore crown rotation and button presses
 - [ ] Only allow dismissal through completed challenge
 - [ ] Visual indicators showing "alarm active" state
 
-**Demo Scenario**: Cover watch face, press buttons, rotate crown - alarm continues until math challenges completed
+**Demo Scenario**: Cover watch face, press buttons, rotate crown - alarm continues until math challenges completed (proving "Cover to Mute" is bypassed)
 
 **Apple Watch Concepts Learned**:
+- Overriding system behaviors ("Cover to Mute", gesture dismissal)
 - App state management and focus
-- Overriding default behaviors
+- Custom haptic control vs system notification vibration
 - Watch hardware interaction handling
 - User experience for critical applications
 

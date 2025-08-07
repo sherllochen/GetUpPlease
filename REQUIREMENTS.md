@@ -16,8 +16,12 @@
 ### Core Problem
 The built-in Apple Watch alarm stops vibrating when the watch face is covered or touched, leading to accidental dismissal before the user is fully awake.
 
+**Technical Root Cause**: Apple Watch's "Cover to Mute" feature automatically mutes notifications and sounds when the watch face is covered with palm for 3+ seconds. This system behavior, while useful for normal notifications, causes alarm failures during sleep when users accidentally cover the watch face.
+
 ### Solution Goal
 Create a persistent alarm system that requires cognitive engagement to dismiss, ensuring the user is mentally alert before the alarm stops.
+
+**Technical Solution**: Bypass Apple's system notification behavior by implementing custom UI and direct haptic control that ignores "Cover to Mute" functionality and other system-level dismissal mechanisms.
 
 ---
 

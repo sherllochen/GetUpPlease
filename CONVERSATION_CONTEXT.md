@@ -27,6 +27,7 @@ This file preserves important context from our development sessions to help futu
 ### Personal Use Case
 - **Primary User**: Developer who sleeps with Apple Watch on
 - **Core Problem**: Built-in watch alarm stops when covered → accidentally dismissed before fully awake
+- **Technical Root Cause**: Apple Watch "Cover to Mute" feature mutes alarms when watch face is covered
 - **Constraint**: Must be silent (vibration only) to avoid disturbing sleeping partner
 - **Solution**: Persistent alarm requiring cognitive engagement (math problems) to dismiss
 
@@ -76,8 +77,9 @@ This file preserves important context from our development sessions to help futu
 2. **Silent Operation**: Set notification sound to nil, rely on haptics for your use case
 3. **Full-Screen Alarm**: Prevents accidental dismissal when watch is covered
 4. **Custom Notification Delegate**: Override system notifications with persistent alarm UI
-5. **Haptic Patterns**: Used specific types (.success, .notification) rather than generic vibration
-6. **Dark Background**: Black backgrounds conserve battery on OLED watch screens
+5. **Bypass "Cover to Mute"**: Custom haptic control ignores Apple's system mute behavior
+6. **Haptic Patterns**: Used specific types (.success, .notification) rather than generic vibration
+7. **Dark Background**: Black backgrounds conserve battery on OLED watch screens
 
 ### Learning Moments Highlighted
 - Explained Digital Crown integration through DatePicker wheel style
